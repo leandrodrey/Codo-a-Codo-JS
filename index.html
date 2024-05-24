@@ -22,9 +22,9 @@
         <img src="./img/almohadilla-de-juego.png" alt="NightGaming" class="containerLogoNavbar">
         <ul class="containerListNavbar">
             <li class="listNavbar"><a href="">INICIO</a></li>
-            <li class="listNavbar"><a href="">NOVEDADES</a></li>
-            <li class="listNavbar"><a href="">ARMÁ TU PC</a></li>
-            <li class="listNavbar"><a href="">CONTACTO</a></li>
+            <li class="listNavbar"><a href="#novedadesContent">NOVEDADES</a></li>
+            <li class="listNavbar"><a href="#armaTuPc">ARMÁ TU PC</a></li>
+            <li class="listNavbar"><a href="#contactanos">CONTACTO</a></li>
             <div class="buttonToggleMenu" id="buttonToggleMenu">
                 <div class="containerLines">
                     <div class="lineone" id="lineone"></div>
@@ -37,18 +37,20 @@
     <nav class="elMenuHamburguesa" id="menuHamburguesa">
         <ul class="containerListMenuHamburguesa">
             <li><a href="">INICIO</a></li>
-            <li><a href="">NOVEDADES</a></li>
-            <li><a href="">ARMÁ TU PC</a></li>
-            <li><a href="">CONTACTO</a></li>
+            <li><a href="#novedadesContent">NOVEDADES</a></li>
+            <li><a href="#armaTuPc">ARMÁ TU PC</a></li>
+            <li><a href="#contactanos">CONTACTO</a></li>
         </ul>
     </nav>
 </header>
 <main>
     <div class="backgroundImgPrincipal">
         <h1><span>Night</span>GAMING</h1>
-        <button>
-            <a href="#novedadesContent"><img src="./img/flecha-hacia-abajo.png" alt="Ir a la seccion principal" class="arrowDown"></a>
-        </button>
+        <a href="#novedadesContent">
+            <button>
+                <img src="./img/flecha-hacia-abajo.png" alt="Ir a la seccion principal" class="arrowDown">
+            </button>
+        </a>
     </div>
     <section id="novedadesContent" class="novedades">
         <h3 class="titleNovedades">NOVEDADES</h3>
@@ -63,7 +65,7 @@
         </div>
     </section>
     <section class="armaTuPc">
-        <form action="" class="componentes">
+        <form action="" class="componentes" id="armaTuPc">
             <div class="group">
                 <label for="motherboard">Motherboard</label>
                 <select id="motherboard" name="motherboard">
@@ -127,7 +129,7 @@
             <button type="submit">Enviar</button>
         </form>
     </section>
-    <section class="contactanos">
+    <section class="contactanos" id="contactanos">
         <h3 class="titleContact">CONTACTO</h3>
         <form action="" class="contacto">
             <div class="group">
@@ -195,11 +197,11 @@
             <div class="links">
                 <h4>Metodos de pago</h4>
                 <div class="pago">
-                    <img src="./img/iconBitcoin.png" alt="Bitcoin"/>
-                    <img src="./img/iconPaypal.png" alt="Paypal"/>
-                    <img src="./img/icontarjetaVisa.png" alt="Visa"/>
-                    <img src="./img/icontargetaMaste.png" alt="Mastercard"/>
-                    <img src="./img/icontarjeta1.png" alt="Tarjeta"/>
+                    <img src="./img/iconBitcoin.png" alt="Bitcoin">
+                    <img src="./img/iconPaypal.png" alt="Paypal">
+                    <img src="./img/icontarjetaVisa.png" alt="Visa">
+                    <img src="./img/icontargetaMaste.png" alt="Mastercard">
+                    <img src="./img/icontarjeta1.png" alt="Tarjeta">
                 </div>
             </div>
             <div class="links">

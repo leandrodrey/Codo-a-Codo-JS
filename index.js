@@ -36,9 +36,9 @@ async function getProducts() {
             const cardInfo = document.createElement('div');
             cardInfo.classList.add('cardInfo');
 
-            const img = document.createElement('img');
-            img.src = product.image;
-            img.alt = product.name;
+            const image = document.createElement('img');
+            image.src = product.image;
+            image.alt = product.name;
 
             const oldPrice = document.createElement('span');
             oldPrice.classList.add('oldPrice');
@@ -48,7 +48,7 @@ async function getProducts() {
             newPrice.classList.add('newPrice');
             newPrice.textContent = product.newPrice;
 
-            cardInfo.appendChild(img);
+            cardInfo.appendChild(image);
             cardInfo.appendChild(oldPrice);
             cardInfo.appendChild(newPrice);
 

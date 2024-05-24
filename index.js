@@ -42,11 +42,11 @@ async function getProducts() {
 
             const oldPrice = document.createElement('span');
             oldPrice.classList.add('oldPrice');
-            oldPrice.textContent = producto.oldPrice;
+            oldPrice.textContent = product.oldPrice;
 
             const newPrice = document.createElement('span');
             newPrice.classList.add('newPrice');
-            newPrice.textContent = producto.newPrice;
+            newPrice.textContent = product.newPrice;
 
             cardInfo.appendChild(img);
             cardInfo.appendChild(oldPrice);
